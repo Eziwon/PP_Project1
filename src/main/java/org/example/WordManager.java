@@ -29,6 +29,9 @@ public class WordManager {
         while(true) {
             int menu = selectMenu();
             if (menu == 0) break;
+            else if (menu == 4) {
+                wordCRUD.addWord();
+            }
         }
     }
 }
