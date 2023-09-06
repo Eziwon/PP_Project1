@@ -1,4 +1,4 @@
 # PP_Project1
 
-### 4번 + 1번 실행 결과
-<img src='https://github.com/Eziwon/PP_Project1/blob/master/screenshot/스크린샷%202023-09-07%20오전%201.12.19.png?raw=true', width="400">
+### [2.수준별 단어 보기]
+<img src = 'https://github.com/eunseoryu/WordMasterProject/blob/master/screenshot/%EC%88%98%EC%A4%80%EB%B3%84%20%EB%8B%A8%EC%96%B4%EB%B3%B4%EA%B8%B0.jpg?raw=true'>
