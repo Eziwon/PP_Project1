@@ -53,4 +53,34 @@ public class WordCRUD implements ICRUD {
         }
         System.out.println("--------------------------------");
     }
+
+    public ArrayList<Integer> listKey(String key) {
+        ArrayList<Integer> idlist = new ArrayList<>();
+        System.out.println("--------------------------------");
+        int j=0;
+        for (int i=0; i<list.size(); i++) {
+            String word = list.get(i).getWord();
+            if (!word.contains(key)) continue;
+            System.out.print((j+1) + " ");
+            System.out.println(list.get(i).toString());
+            idlist.add(i);
+            j++;
+        }
+        System.out.println("--------------------------------");
+        return idlist;
+    }
+
+    public void updateItem() {
+        System.out.print("=> 수정할 단어 검색 : ");
+        String keyword = s.next();
+        ArrayList<Integer> idlist = this.listKey(keyword);
+        System.out.print("=> 수정할 번호 선택 : ");
+        int id = s.nextInt();
+        s.nextLine();
+        System.out.print("=> 뜻 입력 : ");
+        String newMeaning = s.nextLine();
+        Word word = list.get(idlist.get(id-1));
+        word.setMeaning(newMeaning);
+        System.out.println("단어가 수정되었습니다. ");
+    }
 }

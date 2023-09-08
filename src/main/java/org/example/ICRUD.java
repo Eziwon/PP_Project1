@@ -1,5 +1,7 @@
 package org.example;
 
+import java.util.ArrayList;
+
 public interface ICRUD {
     public Object add();
     public void addWord();
@@ -7,4 +9,6 @@ public interface ICRUD {
     public int delete(Object obj);
     public void selectOne(int id);
     public void listAll();
+    public ArrayList<Integer> listKey(String key);
+    public void updateItem();
 }
