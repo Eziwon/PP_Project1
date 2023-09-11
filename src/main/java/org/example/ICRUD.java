@@ -15,4 +15,5 @@ public interface ICRUD {
     public void loadFile();
     public void saveFile();
     public void searchLevel();
+    public void searchWord();
 }
