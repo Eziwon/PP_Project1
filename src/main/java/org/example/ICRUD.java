@@ -14,4 +14,5 @@ public interface ICRUD {
     public void deleteItem();
     public void loadFile();
     public void saveFile();
+    public void searchLevel();
 }

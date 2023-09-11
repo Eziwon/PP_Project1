@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34627c12-81c0-4002-b30a-aa7fb5f80d12" name="Changes" comment="fileLoad 함수 구현">
+    <list default="true" id="34627c12-81c0-4002-b30a-aa7fb5f80d12" name="Changes" comment="파일 저장 기능 구현">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ICRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ICRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Word.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" afterDir="false" />
     </list>
@@ -76,7 +75,7 @@
       <updated>1694013264069</updated>
       <workItem from="1694013264960" duration="4374000" />
       <workItem from="1694156850325" duration="3451000" />
-      <workItem from="1694418705328" duration="3547000" />
+      <workItem from="1694418705328" duration="4184000" />
     </task>
     <task id="LOCAL-00001" summary="commit1">
       <option name="closed" value="true" />
@@ -166,7 +165,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694431421721</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="파일 저장 기능 구현">
+      <option name="closed" value="true" />
+      <created>1694432056623</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1694432056623</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,6 +202,7 @@
     <MESSAGE value="단어 삭제 기능 구현" />
     <MESSAGE value="." />
     <MESSAGE value="fileLoad 함수 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="fileLoad 함수 구현" />
+    <MESSAGE value="파일 저장 기능 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="파일 저장 기능 구현" />
   </component>
 </project>
