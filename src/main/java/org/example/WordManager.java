@@ -25,6 +25,7 @@ public class WordManager {
     }
 
     public void start() {
+        wordCRUD.loadFile();
         System.out.println("*** 영단 마스터 ***");
         while(true) {
             int menu = selectMenu();

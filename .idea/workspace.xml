@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="34627c12-81c0-4002-b30a-aa7fb5f80d12" name="Changes" comment="Dictionary.txt file 생성">
+    <list default="true" id="34627c12-81c0-4002-b30a-aa7fb5f80d12" name="Changes" comment=".">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +74,7 @@
       <updated>1694013264069</updated>
       <workItem from="1694013264960" duration="4374000" />
       <workItem from="1694156850325" duration="3451000" />
-      <workItem from="1694418705328" duration="2287000" />
+      <workItem from="1694418705328" duration="3129000" />
     </task>
     <task id="LOCAL-00001" summary="commit1">
       <option name="closed" value="true" />
@@ -139,7 +140,23 @@
       <option name="project" value="LOCAL" />
       <updated>1694430284625</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="단어 삭제 기능 구현">
+      <option name="closed" value="true" />
+      <created>1694430591200</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694430591200</updated>
+    </task>
+    <task id="LOCAL-00010" summary=".">
+      <option name="closed" value="true" />
+      <created>1694430617950</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694430617950</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,6 +182,8 @@
     <MESSAGE value="단어 수정 기능 구현" />
     <MESSAGE value="maven sqlite-jdbc 외부 라이브러리 추가" />
     <MESSAGE value="Dictionary.txt file 생성" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dictionary.txt file 생성" />
+    <MESSAGE value="단어 삭제 기능 구현" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
 </project>
