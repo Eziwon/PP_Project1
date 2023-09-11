@@ -11,4 +11,5 @@ public interface ICRUD {
     public void listAll();
     public ArrayList<Integer> listKey(String key);
     public void updateItem();
+    public void deleteItem();
 }
