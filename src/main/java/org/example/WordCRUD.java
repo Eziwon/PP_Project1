@@ -1,6 +1,7 @@
 package org.example;
 
 import java.io.*;
+import java.sql.Connection;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -8,6 +9,7 @@ public class WordCRUD implements ICRUD {
     ArrayList<Word> list;
     Scanner s;
     final String fname = "Dictionary.txt";
+    Connection conn;
 
     WordCRUD(Scanner s) {
         list = new ArrayList<>();
@@ -30,21 +32,6 @@ public class WordCRUD implements ICRUD {
         Word one = (Word)add();
         list.add(one);
         System.out.println("새 단어가 단어장에 추가되었습니다 !!! ");
-    }
-
-    @Override
-    public int update(Object obj) {
-        return 0;
-    }
-
-    @Override
-    public int delete(Object obj) {
-        return 0;
-    }
-
-    @Override
-    public void selectOne(int id) {
-
     }
 
     public void listAll() {
@@ -96,14 +83,14 @@ public class WordCRUD implements ICRUD {
         String newMeaning = s.nextLine();
         Word word = list.get(idlist.get(id-1));
         word.setMeaning(newMeaning);
-        System.out.println("단어가 수정되었습니다. ");
+        System.out.println("단어 수정이 성공적으로 되었습니다!! ");
     }
 
     public void deleteItem() {
         System.out.print("=> 삭제할 단어 검색 : ");
         String keyword = s.next();
         ArrayList<Integer> idlist = this.listKey(keyword);
-        System.out.print("=> 삭할 번호 선택 : ");
+        System.out.print("=> 삭제할 번호 선택 : ");
         int id = s.nextInt();
         s.nextLine();
 
@@ -111,7 +98,7 @@ public class WordCRUD implements ICRUD {
         String ans = s.next();
         if(ans.equalsIgnoreCase("y")) {
             list.remove((int)idlist.get(id-1));
-            System.out.println("단어가 삭제되었습니다. ");
+            System.out.println("선택한 단어 선택 완료!! ");
         }
         else
             System.out.println("취소되었습니다. ");
@@ -153,13 +140,13 @@ public class WordCRUD implements ICRUD {
     }
 
     public void searchLevel() {
-        System.out.print("=> 원하는 레벨은? (1~3) ");
+        System.out.print("=> 레벨(1:초급, 2:중급, 3:고급) 선택 : ");
         int level = s.nextInt();
         listAll(level);
     }
 
     public void searchWord() {
-        System.out.print("원하는 단어는? ");
+        System.out.print("검색할 단어 입력 :");
         String keyword = s.next();
         listKey(keyword);
     }
