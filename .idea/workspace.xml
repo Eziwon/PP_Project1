@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="34627c12-81c0-4002-b30a-aa7fb5f80d12" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ICRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ICRUD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,6 +75,8 @@
       <workItem from="1694156850325" duration="3451000" />
       <workItem from="1694418705328" duration="7874000" />
       <workItem from="1694502123484" duration="1861000" />
+      <workItem from="1694503997325" duration="29000" />
+      <workItem from="1694504935941" duration="153000" />
     </task>
     <task id="LOCAL-00001" summary="commit1">
       <option name="closed" value="true" />
@@ -212,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694503906821</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="save file 출력 멘트 수정">
+      <option name="closed" value="true" />
+      <created>1694504020633</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1694504020633</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,6 +255,7 @@
     <MESSAGE value="데이타베이스 추가" />
     <MESSAGE value="코드 정리" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="save file 출력 멘트 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="save file 출력 멘트 수정" />
   </component>
 </project>
