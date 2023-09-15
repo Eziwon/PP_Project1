@@ -1,7 +1,6 @@
 package org.example;
 
 import java.io.*;
-import java.sql.Connection;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -9,7 +8,6 @@ public class WordCRUD implements ICRUD {
     ArrayList<Word> list;
     Scanner s;
     final String fname = "Dictionary.txt";
-    Connection conn;
 
     WordCRUD(Scanner s) {
         list = new ArrayList<>();
