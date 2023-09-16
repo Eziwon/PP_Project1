@@ -8,3 +8,18 @@
 
 ### 수준별 단어 검색
 <img src='https://github.com/Eziwon/PP_Project1/blob/master/screenshot/PP1_example2.png?raw=true' width='400'>
+
+### 단어 검색
+<img src='https://github.com/Eziwon/PP_Project1/blob/master/screenshot/PP1_example3.png?raw=true' width='400'>
+
+### 단어 수정
+<img src='https://github.com/Eziwon/PP_Project1/blob/master/screenshot/PP1_example5.png?raw=true' width='400'>
+
+### 단어 삭제
+<img src = 'https://github.com/Eziwon/PP_Project1/blob/master/screenshot/PP1_example6.png?raw=true' width='400'>
+
+### 파일 저장
+<img src='https://github.com/Eziwon/PP_Project1/blob/master/screenshot/PP1_example7.png?raw=true' width='400'>
+
+### 나가기 기능
+<img src='https://github.com/Eziwon/PP_Project1/blob/master/screenshot/PP1_example0.png?raw=true' width='400'>
